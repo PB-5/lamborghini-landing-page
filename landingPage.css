@@ -157,7 +157,7 @@ margin: 0;
 
     cursor: pointer;
     position: absolute;
-    left: 9%;
+    left: 8%;
     top: 55%;
     width: 0;
     height: 0;
@@ -282,7 +282,7 @@ margin: 0;
 }
 
 .icons {
-    margin: 10px 10px 70px 0;
+    margin: 10px 10px 50px 0;
 
     font-size: 14px;
     font-family: 'Open Sans', sans-serif;
@@ -298,7 +298,6 @@ margin: 0;
    
     margin-bottom: 3px;
     vertical-align: middle;
-   
 }
 
 .icons span {
@@ -306,6 +305,35 @@ margin: 0;
     white-space: nowrap;
  
     margin-right: 1px;
-   
 }
 
+.layer3 {
+background-image: url(bg/london-458.jpg);
+background-size: cover;
+object-fit: cover;
+background-attachment: fixed;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.layer3text {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+color: white;
+border-radius: 1em;
+text-shadow: 0 0 1em rgb(19, 18, 18), 0 0 2em rgb(161, 161, 161);
+font-family: 'Open Sans', sans-serif;
+letter-spacing: 0.1em;
+margin: 15em 0;
+}
+
+.layer3quote {
+    font-size: 4em;
+    text-align: center;
+    font-style: italic;
+    font-weight: 600;
+}
