@@ -211,7 +211,7 @@ margin: 0;
 
     font-size: 1.1em;
     text-decoration: none;
-    background-image: linear-gradient(rgb(255, 255, 255), rgba(146, 147, 150, 0.5));
+    background-image: linear-gradient(rgb(255, 255, 255), rgba(201, 200, 200, 0.5));
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -325,15 +325,76 @@ align-items: center;
 flex-direction: column;
 color: white;
 border-radius: 1em;
-text-shadow: 0 0 1em rgb(19, 18, 18), 0 0 2em rgb(161, 161, 161);
+text-shadow: 0 0 1em rgb(0, 0, 0), 0 0 2em rgb(0, 0, 0);
 font-family: 'Open Sans', sans-serif;
 letter-spacing: 0.1em;
 margin: 15em 0;
 }
-
+/* Why choose us.. */
 .layer3quote {
     font-size: 4em;
     text-align: center;
     font-style: italic;
     font-weight: 600;
+}
+/* background offer section */
+.layer4bg {
+    background-image: linear-gradient(rgb(255 255 255),rgb(120 119 119));
+    display: flex;
+    justify-content: center;
+    padding: 1em 0;
+    align-items: center;
+}
+/* 3 images inside layer4 */
+.layer4content {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+/* hand, smile, location pin */
+.happy {
+    width: 14em;
+    height: auto;
+    margin: 0 4em 0 4em;
+   
+}
+.happy-quote {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 16px;
+    color: rgb(87, 84, 84);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    
+}
+.happy-text {
+    padding-top: 20px;
+
+    text-align: center;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    width: 50%;
+}
+
+.checkOffer {
+    margin-top: 20px;
+}
+.offerbutton {
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    width: 10em;
+    height: 3em;
+    color: rgb(8, 8, 8);
+    /* border: 0.2em solid white; */
+    margin-top: 20px;
+
+    font-size: 1em;
+    text-decoration: none;
+    background-image: linear-gradient(rgb(255, 255, 255), rgba(219, 216, 216, 0.5));
+    font-family: 'Open Sans', sans-serif;
 }
